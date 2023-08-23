@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+}
+.clock {
+    color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+    border: 10px solid white;
+    margin: 20vh auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.display-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center_watch_icon {
+    width: 20px;
+    background-color: aqua;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid aqua;
+    position: relative;
+    top: 49%;
+    left: 49%;
+    
+}
+.hour_watch {
+    width: 5px;
+display: flex;
+    height: 240px;
+    border-radius: 10px;
+}
+.minute_watch {
+    width: 3px;
+    display: flex;
+
+    height: 320px;
+    border-radius: 10px;
+}
+.second_watch {
+    width: 2px;
+display: flex;
+    height: 380px;
+border-radius: 10px;
+}
+.second_display {
+    width: 1px;
+    height: 190px;
+    background-color: aqua;
+}
+.none {
+    width: 1px;
+    height: 190px;
+    background-color: aqua;
+}
+.minute_display {
+    width: 1.5px;
+    height: 160px;
+    background-color: aqua;
+    
+}
+.none_min {
+    width: 1.5px;
+    background-color: aqua;
+    height: 160px;
+}
+.hour_display {
+    width: 2.5px;
+    height: 120px;
+    background-color: aqua;
+}
+.none_hours {
+    width: 2.5px;
+    height: 120px;
+    background-color: aqua;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.num1 {
+    transform: rotate(30deg);
+}
+.num2 {
+    transform: rotate(60deg);
+}
+.num3 {
+    transform: rotate(90deg);
+}
+.num4 {
+    transform: rotate(120deg);
+}
+.num5 {
+    transform: rotate(150deg);
+}
+.num6 {
+    transform: rotate(180deg);
+}
+.num7 {
+    transform: rotate(210deg);
+}
+.num8 {
+    transform: rotate(240deg);
+}
+.num9 {
+    transform: rotate(270deg);
+}
+.num10 {
+    transform: rotate(300deg);
+}
+.num11 {
+    transform: rotate(330deg);
+}
